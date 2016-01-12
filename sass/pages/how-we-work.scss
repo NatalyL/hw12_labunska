@@ -1,0 +1,39 @@
+.how-we-work {
+  background: $section-color;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 30px;
+
+  .description {
+    text-align: left;
+    font-weight: 300;
+
+    p {
+      margin: 20px 0;
+    }
+  }
+
+  .title {
+
+    h2 {
+      color: #ffffff;
+    }
+    p {
+      color: #5483bb;
+      font-weight: 300;
+    }
+  }
+
+  .button {
+    margin-top: 20px;
+    background: #ffffff;
+    border-color: #0149a1;
+    color: #0149a1;
+
+    &:hover {
+      background: #0149a1;
+      color: #ffffff;
+      border-color: #fff;
+    }
+  }
+}

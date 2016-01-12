@@ -1,0 +1,29 @@
+.ft-page {
+  padding: 20px 0;
+  background: $section-color;
+  color: #ffffff;
+  text-align: center;
+
+  li {
+    padding: 5px 0;
+  }
+
+  a {
+    color: #fff;
+    font-weight: 400;
+  }
+}
+
+.footer-ending {
+  padding-top: 20px;
+
+  p{
+    font-family: 'ProximaNova', sans-serif;
+    font-weight: 300;
+  }
+
+  a {
+    font-family: $base-font;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('../fonts/proximanova-light-webfont.eot');
+  src: url('../fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/proximanova-light-webfont.woff2') format('woff2'),
+  url('../fonts/proximanova-light-webfont.woff') format('woff'),
+  url('../fonts/proximanova-light-webfont.ttf') format('truetype'),
+  url('../fonts/proximanova-light-webfont.svg#proxima_novalight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  font-family: $base-font;
+  font-size: 14px;
+  color: $base-font-color;
+  background: #fff;
+}
+
+ul, ol {
+  list-style-type: none;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+a {
+  text-decoration: none;
+  color: $base-font-color;
+
+  &:hover {
+    text-decoration: none;
+    color: $base-font-color;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3 {
+  margin: 0 0;
+}
+
+blockquote {
+  border-left: none;
+}
+
+.title {
+  padding: 30px;
+
+  h2 {
+    color: #0149a1;
+    font-weight: 700;
+  }
+
+  p {
+    font-weight: 300;
+  }
+}

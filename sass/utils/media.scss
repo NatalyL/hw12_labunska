@@ -1,0 +1,188 @@
+@media screen and (min-width: 768px) {
+
+  .button {
+    font-size: 1.2em;
+  }
+
+  .social {
+    position: relative;
+  }
+
+  .menu {
+    cursor: pointer;
+    font-size: 1.1em;
+
+    ul {
+
+      li {
+        float: left;
+        padding: 5px 5px;
+
+        a {
+          display: block;
+          padding: 10px 15px;
+          border: 1px solid #ffffff;
+          border-radius: 20px;
+
+          &:hover {
+            border: 1px solid #9fabba;
+          }
+        }
+      }
+    }
+  }
+
+  .title {
+    padding: 135px 0 115px;
+
+    h2 {
+      font-size: 5em;
+    }
+
+    p {
+      font-size: 2.5em;
+    }
+  }
+
+  .check-creativity {
+
+    .title {
+      p {
+        margin: 20px 0 110px;
+      }
+    }
+  }
+
+  .services {
+    padding: 100px 0 120px;
+
+    h3 {
+      font-size: 1.9em;
+    }
+
+    p {
+      font-size: 1.2em;
+    }
+  }
+
+  .creativity {
+    padding: 355px 0 195px;
+  }
+
+  .how-we-work {
+    padding-bottom: 130px;
+
+    .description {
+      font-size: 1.2em;
+
+    }
+
+    .title {
+
+      h2 {
+        font-size: 5em;
+      }
+      p {
+        font-size: 2.5em;
+      }
+    }
+
+    .button {
+      margin-top: 100px;
+    }
+  }
+
+  .our-team {
+    padding-bottom: 125px;
+  }
+
+  .team {
+    padding-bottom: 90px;
+
+    p {
+      font-size: 1.2em;
+    }
+
+    h3 {
+      margin: 55px 0 25px;
+      font-size: 1.9em;
+    }
+  }
+
+  .ft-page {
+    padding: 90px 0 130px;
+    font-size: 1.2em;
+    text-align: left;
+  }
+
+  .footer-ending {
+    padding-top: 135px;
+    text-align: center;
+  }
+
+  .carousel-text {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .team, .services {
+
+    div:nth-child(2n+1) {
+      clear: both;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .logo {
+    float: left;
+    width: 50%;
+    padding-left: 35px;
+  }
+
+  .social {
+    position: relative;
+    float: right;
+    width: 50%;
+  }
+
+  .menu {
+    width: 100%;
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (min-width: 992px) {
+
+  .logo {
+    float: left;
+    width: 20%;
+  }
+
+  .social {
+    position: relative;
+    float: right;
+    width: 15%;
+  }
+
+  .menu {
+    width: 65%;
+    float: right;
+    font-size: 1.2em;
+
+    ul {
+      float: right;
+    }
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .menu {
+    width: 65%;
+    float: right;
+    font-size: 1.4em;
+  }
+}
+

@@ -1,0 +1,60 @@
+.opinion {
+  padding: 105px 0 200px;
+}
+
+.carousel-inner {
+  text-align: center;
+
+  img {
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+}
+
+.carousel-text {
+  width: 70%;
+  margin: 0 auto;
+  color: #7c8ca0;
+  font-weight: 300;
+
+  blockquote {
+    font-style: italic;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+.carousel-control {
+
+  &.left {
+    background-image: none;
+  }
+
+  &.right {
+    background-image: none;
+  }
+}
+
+.arrow-l {
+  @include arrow-pos;
+  left: 0;
+}
+
+.arrow-r {
+  @include arrow-pos;
+  right: 0;
+}
+
+.carousel-indicators {
+  bottom: -75px;
+
+  li {
+    border: 1px solid #7c8ca0;
+  }
+
+  .active {
+    background: radial-gradient(#7c8ca0 50%, #ffffff 50%);
+  }
+}

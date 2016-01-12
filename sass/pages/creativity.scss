@@ -1,0 +1,18 @@
+.creativity {
+  background: url("../images/bg_creativity.jpg") center no-repeat;
+  padding: 150px 0 20px;
+  text-align: center;
+  min-height: 300px;
+
+  .button {
+    background: #0149a1;
+    border-color: #0149a1;
+    color: #ffffff;
+
+    &:hover {
+      background: #ffffff;
+      color: #0149a1;
+      transition: 0.5s ease;
+    }
+  }
+}

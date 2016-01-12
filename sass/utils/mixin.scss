@@ -1,0 +1,13 @@
+@mixin arrow-pos {
+  position: absolute;
+  top: 50%;
+  margin-top: -40px;
+}
+
+@mixin transform-translate($x, $y) {
+  -moz-transform: translate($x, $y); /* Для Firefox */
+  -ms-transform: translate($x, $y); /* Для IE */
+  -webkit-transform: translate($x, $y); /* Для Safari, Chrome, iOS */
+  -o-transform: translate($x, $y); /* Для Opera */
+  transform: translate($x, $y);
+}
